@@ -70,8 +70,8 @@
  
  .bannar{
  
-     height: 350px;
-     width: 950px;
+     height: 500px;
+     width: 1250px;
      background-color: rgb(190, 190, 190);
      border-radius: 40px;  
      margin-left: auto;
@@ -89,7 +89,7 @@
  }
  
  .brands{
- 
+    
      display: flex;
      gap: 10pt;
  
@@ -97,7 +97,7 @@
  
  .brands img {
  
-     height: 300px;
+     height: 500px;
      width:auto ;
      align-items: center;
  
@@ -136,7 +136,7 @@
  
  .trending img{
  
-     height: 300px;
+     height: 500px;
      width: auto;
      margin-right: auto;
      margin-left: auto;
