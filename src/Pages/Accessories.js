@@ -1,5 +1,6 @@
 import React from "react";
 import './Accessories.css'
+import './Offers.css'
 import Sortby from "../Components/sortby";
 import Filters from "../Components/Filters";
 
