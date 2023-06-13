@@ -1,0 +1,167 @@
+.App{
+    background-color: #374E7B;
+}
+
+
+ .App > *+*{  
+ 
+     margin-top: 1em;
+ 
+ }
+
+ .topnav img{
+ 
+     height: 55px;
+     width: auto;
+ 
+ }
+ 
+ .topnav img{
+ 
+     height:fit-content;
+     width:fit-content;
+     justify-content: center;
+     padding: auto;
+    
+ }
+
+ .topnav{
+ 
+     display: flex;
+     height: auto;
+     width: auto;
+     align-items:center ;
+     
+     
+   }
+ 
+   .topnav a{
+ 
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 24px;
+     font-style: normal;
+     font-family: Arial, Helvetica, sans-serif;
+     color: #fff;
+ 
+   }
+   .topnav img{
+ 
+     padding: 0.5%;
+     height: 50px;
+    
+
+ }
+ .searchBar{
+ 
+     padding: 0.6%;
+     float:right;
+     
+ }
+ .searchBar input{
+ 
+     height: 45px;
+     width: 400px;
+     border-radius: 15px;
+     text-align: center;
+     font-size: medium;
+     
+ }
+ 
+ .bannar{
+ 
+     height: 350px;
+     width: 950px;
+     background-color: rgb(190, 190, 190);
+     border-radius: 40px;  
+     margin-left: auto;
+     margin-right: auto;
+ 
+ }
+
+ h2{
+
+     color: #fff;
+     padding: 1%;
+     font-style: normal;
+     font-family:sans-serif;
+ 
+ }
+ 
+ .brands{
+ 
+     display: flex;
+     gap: 10pt;
+ 
+ }
+ 
+ .brands img {
+ 
+     height: 300px;
+     width:auto ;
+     align-items: center;
+ 
+ }
+ 
+ .brands > img:first-of-type{
+ 
+     margin-left: auto;
+ 
+ }
+ 
+ .brands > img:last-of-type{
+ 
+     margin-right: auto;
+ 
+ }
+ .brands h2{
+ 
+     
+     align-items: center;  
+ 
+ }
+ 
+ .trending{
+     height: 600px;
+     width: 400;    
+ }
+ .h2{
+ 
+     color: #fff;
+     padding: 0.5%;
+     font-style: normal;
+     font-family:sans-serif;
+ 
+ }
+ 
+ .trending img{
+ 
+     height: 300px;
+     width: auto;
+     margin-right: auto;
+     margin-left: auto;
+     padding: 0.5%;    
+ 
+ }
+ 
+ .homefooter{
+ 
+     display: flex;
+     height: 85px; 
+     width: auto;
+     background-color: #D9D9D9;
+     align-items: center;
+ 
+ }
+ 
+ .homefooter p{
+ 
+     color: #000;
+     padding:  15%;
+     font-size: 24px;
+ }
+
+
+    
+    
+ 

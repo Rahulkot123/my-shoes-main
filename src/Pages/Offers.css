@@ -1,0 +1,105 @@
+.sortby{
+    align-items:center;
+    height:auto;
+    width: 200px;
+    padding: 0.5%;
+    display: inline;
+  
+}
+.sortby label{
+    
+    color: white;
+    font-size: 20px;
+    text-align: center;    
+
+}
+
+.sortby select {
+    height: 50px;
+    width: 200px;
+    font-size: larger;
+    text-align: center;
+}
+
+.Content{
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+    height: 600px;
+    width: auto;
+}
+
+.Content img{
+    display:flex;
+    flex-direction:column;
+    padding:0.5% ;
+}
+
+
+.Filters{
+    display: flex;
+    align-items: center;
+    padding: 0.5%;
+
+}
+
+.Brand select{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+
+.Brand label{
+    color: white;
+    font-size: 20px;
+    text-align: center;     
+}
+
+.Colour select{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+
+.Colour label{
+    color: white;
+    font-size: 20px;
+    text-align: center;     
+}
+
+.Size select{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+
+.Size label{
+
+    color: white;
+    font-size: 20px;
+    text-align: center;     
+}
+
+.Price select{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.Price label{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+         
+}
