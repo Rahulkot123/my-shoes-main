@@ -8,8 +8,9 @@ import Women from './Pages/Women';
 import Kids from './Pages/Kids'
 import Contact from './Pages/Contact';
 import Accessories from './Pages/Accessories';
+import Signup from './Pages/Signup';
 import Login from './Pages/Login';
-import Signup from './Pages/SIgnUp';
+
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
         <Route path='/Kids' element={<Kids/>}/>
         <Route path='/Accessories' element={<Accessories/>}/>
         <Route path='/Login' element={<Login/>}/>
-        <Route path='/Signup' element= {<SignUp/>}/>
+        <Route path='/signup' element={<Signup/>}/>
         <Route path='/Contact' element={<Contact/>}/>
       </Routes >
     </div>
