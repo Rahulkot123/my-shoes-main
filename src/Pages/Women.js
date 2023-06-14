@@ -8,7 +8,10 @@ export default function Women() {
     return(
     <div className="Women"> 
     
-    <div className='bannar'></div>
+    <div className='bannar'>
+    <img src={ require('../Photos/womanbannar.png')} alt='offers product 1'></img>
+
+    </div>
     <Sortby/>
     <Filters/>
 

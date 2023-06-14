@@ -7,7 +7,9 @@ import Filters from "../Components/Filters";
 export default function Accessories (){
     return(
 <div>
-    <div className='bannar'></div>
+    <div className='bannar'>
+    <img src={ require('../Photos/Accessoriesbannar.png')} alt='offers product 2 '></img>
+    </div>
     <Sortby/>
     <Filters/>
    

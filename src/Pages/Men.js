@@ -10,7 +10,9 @@ export default function Men() {
     return(
     <div>
     
-    <div className='bannar'></div>
+    <div className='bannar'>
+    <img src={ require('../Photos/menBannar.png')} alt='offers product 2 '></img>
+    </div>
        
     <Sortby/>
     <Filters/>

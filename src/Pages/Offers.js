@@ -13,6 +13,7 @@ export default function  Offers(){
         
         <div>
             <div className='bannar'>
+            <img src={ require('../Photos/OffersBannar.png')} alt='offers product 1'></img>
             
             </div>
             <Sortby/>

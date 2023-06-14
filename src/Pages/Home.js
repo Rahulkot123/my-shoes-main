@@ -5,7 +5,7 @@ export default function Home() {
     return( 
         <div>
             <div className='bannar'>
-            
+                <img src={ require('../Photos/Homebannar.png')} alt='nike '></img>
             </div>
 
             <h2>Shop Your Favorite brand</h2>

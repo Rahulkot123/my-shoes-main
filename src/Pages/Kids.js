@@ -7,7 +7,9 @@ export default function Kids() {
     return(
 <div>
     
-    <div className='bannar'></div>
+    <div className='bannar'>
+    <img src={ require('../Photos/kidsbannar.png')} alt='offers product 1'></img>
+    </div>
     <Sortby/>
     <Filters/>
 
