@@ -6,10 +6,10 @@ import Offers from './Pages/Offers'
 import Men from './Pages/Men'
 import Women from './Pages/Women';
 import Kids from './Pages/Kids'
-import Contact from './Pages/Contact';
 import Accessories from './Pages/Accessories';
 import Signup from './Pages/Signup';
 import Login from './Pages/Login';
+import Contact from './Pages/Contact';
 
 import { Route, Routes } from 'react-router-dom';
 
@@ -25,7 +25,7 @@ function App() {
         <Route path='/Kids' element={<Kids/>}/>
         <Route path='/Accessories' element={<Accessories/>}/>
         <Route path='/Login' element={<Login/>}/>
-        <Route path='/Sign up' element={<Signup/>}/>
+        <Route path='/Signup' element={<Signup/>}/>
         <Route path='/Contact' element={<Contact/>}/>
       </Routes >
     </div>

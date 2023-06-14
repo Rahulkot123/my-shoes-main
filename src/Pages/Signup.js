@@ -52,9 +52,10 @@ export default function Signup(){
 
 
    
-    <footer className='footer'>
-    <h2>Follow us on</h2>
-    </footer>
+ <footer className='homefooter'>
+    <h2> Follow Us On </h2>
+</footer>
+
 
     
 

@@ -52,9 +52,13 @@
     font-size: 30px;
 }
 
+.Signup{
+    height: 650px;
+}
+
 .Signup button{
     height: 55px;
-    width: 350px;
+    width: 400px;
 }
 .signin:hover{
     opacity: 0.8;
