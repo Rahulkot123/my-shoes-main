@@ -43,9 +43,11 @@ export default function Signup(){
     <div className=" Confirm Password">
     <label for="Password"><b>Confirm Password</b></label>
     <input type="Password" placeholder="Re-Enter Password" name="Confirm Password" required/>
+    
+    <button><span><a href="/">Submit</a></span></button>
     </div>
 
-    <button><span><a href="/">Submit</a></span></button>
+    
 
 
 

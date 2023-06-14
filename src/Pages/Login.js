@@ -3,7 +3,7 @@ import './login.css'
 
 export default function Login(){
     return(
-<div>
+<div >
 
     <div className="benfits">
         <h2>With an Account You Can:</h2>
@@ -13,31 +13,32 @@ export default function Login(){
         <p>Manage and Track Items</p>
         </div>
 
-    <div className="Login">
-        <h1>Login Here</h1>
+    
+       
         
 
-<div className="Password"> 
+<div className="Login">
+     <h1>Login</h1>
     <label for="Email"><b>Email</b></label>
     <input type="Email" placeholder="Enter Email" name="email" required/>
         
     <label for="Password"><b>Password</b></label>
     <input type="Password" placeholder="Enter Password" name="Password" required/>
+    <button><span><a href="/">Sign In</a></span></button>
 </div>
+
+
  
 
 
-    </div>
+    
 
 
 
 
     
     
-    
-    <footer className='homefooter'>
-        <h2>Follow us on</h2>
-    </footer>
+
 </div>
 
 

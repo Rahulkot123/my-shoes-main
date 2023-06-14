@@ -1,4 +1,8 @@
+
+
+
 .benfits{
+    background-color: #374E7B;
     height: 500px;
     width: auto;
     color: white;
@@ -16,10 +20,39 @@
     color:white;
     
 }
-
 .homefooter h2{
     color:black ;
 }
 
+.Login {
+    background-color: #374E7B;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 500px;
+    color: white;
+}
 
+.Login label{
+    font-size: 24px;
+}
+
+.Login input{
+    height: 50px;
+    font-size: 24px;
+    color: black;
+    padding-top: 0.5%; 
+}
+
+.Login button{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+}
+
+.Login a{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
 
