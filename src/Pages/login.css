@@ -20,39 +20,68 @@
     color:white;
     
 }
-.homefooter h2{
-    color:black ;
-}
 
-.Login {
-    background-color: #374E7B;
-    display: flex;
-    flex-direction: column;
-    height: 1000px;
-    width: 500px;
-    color: white;
-}
 
-.Login label{
-    font-size: 24px;
-}
-
-.Login input{
-    height: 50px;
-    font-size: 24px;
-    color: black;
-    padding-top: 0.5%; 
-}
-
-.Login button{
-    height: 50px;
+.Email{
+    height: 100px;
     width: 150px;
-    text-align: center;
 }
 
-.Login a{
-    color: black;
+.Email input{
+   height: 50px;
+   width: 500px;
+   font-size: 24px;
+}
+
+.Email label{
+    color: white;
     font-size: 24px;
+}
+
+.signin{
+    height: 150px;
+}
+.signin button{
+    height: 55px;
+    width: 350px;
+    
+}
+
+.signin a{
+    color: black;
+    font-size: 30px;
+}
+
+.Signup button{
+    height: 55px;
+    width: 350px;
+}
+.signin:hover{
+    opacity: 0.8;
+}
+
+.Signup a{
+    color: black;
+    font-size: 30px;
+    
+}
+
+.Signup:hover{
+    opacity: 0.8;
+}
+
+
+.homefooter h2{
+    
+    color: black;
+}
+
+.Promo{
     text-align: center;
+    font-size: 24px;
+}
+
+.Promo input{
+    align-items: center;
 }
 
