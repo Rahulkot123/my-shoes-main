@@ -9,5 +9,71 @@
 
 .info p{
     color: white;
+    font-size: 30px;
+    width: auto;;
+    padding: 0.5%;
+}
+
+.Details label{
+    font-size: 27px;
+    
+
+    
+}
+
+.Details input{
+    height: 50px;
+    font-size: 24px;
+    color: black;
+    padding-top: 0.5%; 
+}
+
+
+.Password{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 500px;
+    color: white;
+}
+
+
+.Password label{
     font-size: 24px;
 }
+
+.Password input{
+    height: 50px;
+    font-size: 24px;
+    color: black;
+    padding-top: 0.5%; 
+}
+
+
+.signup h1{
+    color: white;
+    
+}
+
+.signup button{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    
+}
+
+.signup a{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+
+
+}
+.signup h2{
+    color: black;
+    font-size: 24px;
+
+    
+
+}
+

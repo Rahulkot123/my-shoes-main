@@ -1,68 +1,24 @@
-.benfits {
+.benfits{
+    height: 500px;
+    width: auto;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    display: table-row;
-    text-align: center;
-    padding-top: 0.5%;
-
+    font-size: 24px;
+    padding: 0.5%;
 }
 
 .benfits p{
-    padding: 0.5%;
-    font-size: 25px;
-    
+    text-align: center;
+    font-size: 30px;
 }
 
 .benfits h2{
-    font-size: 30px
-}
-
-
-.Container{
-    display: flex;
-    flex-direction: column;
-    padding: 12px 20px;
-    height: 700px;
-    width: 100%;
-    
-
-}
-
-.Container label{
-    padding: 0.5%;
-    color: white;
-    font-size: 24px;
-    font-style: normal;
-
-}
-
-.Container input{
-    
-    height: 50px;
-    width: 500px;
-    font-size:large;
     text-align: center;
-}
-
-.Container button{
-    
-    height: 45px;
-    width: 350px;
-    border-color: black;
-
-
-}
-
-.Container button:hover{
-    opacity: 0.8;
-}
-
-span a {
-    
     color:white;
-    font-size: large;
-    display: flex;
+    
+}
 
+.homefooter h2{
+    color:black ;
 }
 
 
