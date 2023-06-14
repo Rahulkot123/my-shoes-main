@@ -1,0 +1,13 @@
+.Details{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    padding: 0.5%;
+    color: white;
+}
+
+.info p{
+    color: white;
+    font-size: 24px;
+}
