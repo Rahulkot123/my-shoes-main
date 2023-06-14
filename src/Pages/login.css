@@ -61,10 +61,9 @@ span a {
     
     color:white;
     font-size: large;
+    display: flex;
 
 }
 
-.checkbox input.name{
-    display: inline;
-}
+
 

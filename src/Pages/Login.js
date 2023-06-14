@@ -25,10 +25,12 @@ export default function Login(){
                 <input type="text" placeholder="Enter Password "></input>
 
                 <button type="Submit"> Login</button>
+                <label>
  
-                    <span className="psw">  <a href="email">Forgot Password</a></span>
+                    <span className="psw"><a href="signup">Forgot Password</a></span>
                      
-                      <span >  <a href="signup">Create An Account</a></span>           
+                      <span ><a href="signup">Create An Account</a></span>
+                      </label>           
             </div>
                 
 
