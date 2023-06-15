@@ -18,6 +18,7 @@ export default function Navbar(){
             <a href='/login'>Login</a>
             <a href='/Signup'>Signup</a>
             <a href='/Contact'>Contact</a>
+            <img src={ require('../Photos/Homebutton.png')} alt='Home button' onClick={()=>Navigate("/")}/>
             <img src={ require('../Photos/login.png')} alt='login button' onClick={()=>Navigate("/login")}/>
             <img src={ require('../Photos/phone.png')} alt='contact page button' onClick={()=> Navigate("/Contact")}/>
 
@@ -29,3 +30,4 @@ export default function Navbar(){
     </div>
 
 }
+
