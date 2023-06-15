@@ -13,7 +13,8 @@ export default function Navbar(){
             <a href='kids'>Kids</a>
             <a href='Accessories'>Accessories</a>
             <a href='login'>Login</a>
-            <a href='sign up'>Contact</a>
+            <a href='Signup'>Signup</a>
+            <a href='Contact'>Contact</a>
             <img src={ require('../Photos/login.png')}alt='login button'/>
             <img src={ require('../Photos/phone.png')}alt='contact page button'/>
             <img src={ require('../Photos/basket.png')} alt='basket button'/>
