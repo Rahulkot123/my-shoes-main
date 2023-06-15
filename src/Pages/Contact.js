@@ -9,12 +9,23 @@ export default function Contact(){
 
             <div classname="Feebackform">
         
-                
+            <div className="First">
+                    <label for="Email"><b>First Name</b></label>
+                    <input type="text" placeholder="First Name" name="First Name" required/>
+                </div>
 
                 <div className="Email">
                     <label for="Email"><b>Email</b></label>
-                    <input type="Email" placeholder="Enter Email" name="email" required/>
+                    <input type="text" placeholder="Enter Email" name="email" required/>
                 </div> 
+
+                <div className="FeebackOrEnquiry ">
+                    <label for="Feeback Or Enquiry"><b>Feeback Or Enquiry</b></label>
+                    <input type="text" placeholder="Feeback Or Enquiry" name="Feeback Or Enquiry" required/>
+                    <button><span><a href="/">Submit</a></span></button>
+                </div> 
+
+                
 
 <iframe
 width="600"

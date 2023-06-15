@@ -20,8 +20,7 @@ export default function Navbar(){
             <a href='/Contact'>Contact</a>
             <img src={ require('../Photos/login.png')} alt='login button' onClick={()=>Navigate("/login")}/>
             <img src={ require('../Photos/phone.png')} alt='contact page button' onClick={()=> Navigate("/Contact")}/>
-            <img src={ require('../Photos/basket.png')} alt='basket button'/>
-            <img src={ require('../Photos/Map.png')} alt='map hyperlink'/>
+
         </header>
 
         <header className='searchBar'>
