@@ -87,5 +87,11 @@
 
 .Promo input{
     align-items: center;
+    width: 250px;
+    height: 55px;
+    color: white;
 }
-
+.Promo label{
+    color: white;
+    font-size: 25px;
+}

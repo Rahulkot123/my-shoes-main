@@ -8,7 +8,7 @@ export default function Navbar(){
 
     return <div>
         <header className='topnav'>
-            <img src={logo} alt='logo'/>
+            <img src={logo} alt='logo' /> 
             <a href='/'>Home</a>
             <a href='/Offers'>Offers</a>
             <a href='/Men'>Men</a>

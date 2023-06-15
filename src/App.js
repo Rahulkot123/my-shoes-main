@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './Components/navbar';
 import Home from './Pages/Home';
 import Offers from './Pages/Offers'
-import Men from './Pages/Men'
+import Men from './Pages/Men';
 import Women from './Pages/Women';
 import Kids from './Pages/Kids'
 import Accessories from './Pages/Accessories';

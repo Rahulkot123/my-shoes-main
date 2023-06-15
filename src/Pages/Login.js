@@ -34,14 +34,16 @@ export default function Login(){
 
 <footer className='homefooter'>
     <h2> Follow Us On </h2>
+    <img src={ require('../Photos/instagram.png')} alt=' intstagram '></img>
+    <img src={ require('../Photos/facebook.png')} alt=' facebook '></img>
+     
 </footer>
 
 <div className="Promo">
     <h2>Want to Get 10% off your next order</h2>
-    <div className="Email">
     <label for="Email"><b>Email</b></label>
     <input type="Email" placeholder="Enter Email" name="email" required/>
-    </div>
+    
 
 </div>
 

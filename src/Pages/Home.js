@@ -25,9 +25,9 @@ export default function Home() {
             
             <footer className='homefooter'>
             
-                <p>phone number</p>
-                <p>Address</p>
-                <p>harrowstore@myshoes.com</p>
+                <p>Phone:07569812345</p>
+                <p> Address: HA1 1AT</p>
+                <p>Email:harrowstore@myshoes.com</p>
                 
             
             </footer>
