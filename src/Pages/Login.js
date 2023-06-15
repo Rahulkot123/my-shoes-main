@@ -29,7 +29,7 @@ export default function Login(){
 </div>
 
 <div className="Signup">
-<button><span><a href="Sign up">Create An Account here</a></span></button>
+<button><span><a href="/Signup">Create An Account here</a></span></button>
 </div>
 
 <footer className='homefooter'>

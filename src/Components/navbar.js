@@ -1,8 +1,11 @@
 import React from "react";
 import '../App.css';
 import logo from  '../Photos/logo.jpg';
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar(){
+    const Navigate = useNavigate()
+
     return <div>
         <header className='topnav'>
             <img src={logo} alt='logo'/>
@@ -15,8 +18,8 @@ export default function Navbar(){
             <a href='/login'>Login</a>
             <a href='/Signup'>Signup</a>
             <a href='/Contact'>Contact</a>
-            <img src={ require('../Photos/login.png')}alt='login button'/>
-            <img src={ require('../Photos/phone.png')}alt='contact page button'/>
+            <img src={ require('../Photos/login.png')} alt='login button' onClick={()=>Navigate("/login")}/>
+            <img src={ require('../Photos/phone.png')} alt='contact page button' onClick={()=> Navigate("/Contact")}/>
             <img src={ require('../Photos/basket.png')} alt='basket button'/>
             <img src={ require('../Photos/Map.png')} alt='map hyperlink'/>
         </header>
