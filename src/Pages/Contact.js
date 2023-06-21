@@ -27,8 +27,8 @@ export default function Contact(){
             <div classname="Feebackform">
         
             <div className="First">
-                    <label for="Email"><b>First Name</b></label>
-                    <input type="text" placeholder="First Name" name="First Name" required/>
+                    <label for="Text"><b>First Name</b></label>
+                    <input type="Text" placeholder="First Name" name="First Name" required/>
                 </div>
 
                 <div className="Email">
@@ -47,7 +47,7 @@ export default function Contact(){
             <h1> Opening Times </h1>
             <div className="openingtimes2">
             
-            <h2> Monday:    9:00-17:00</h2>
+            <h2>Monday:    9:00-17:00</h2>
             <h2>Tuesday:    9:00-17:00</h2>
             <h2>Wednesday:  9:00-17:00</h2>
             <h2>Thursday:   9:00-17:00</h2>
