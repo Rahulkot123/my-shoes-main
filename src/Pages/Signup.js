@@ -54,6 +54,12 @@ export default function Signup(){
    
  <footer className='homefooter'>
     <h2> Follow Us On </h2>
+    <img src={ require('../Photos/instagram.png')} alt=' intstagram '></img>
+    <img src={ require('../Photos/facebook.png')} alt=' facebook '></img>
+    <p>Phone:07569812345</p>
+    <p> Address: HA1 1AT</p>
+    <p>Email:harrowstore@myshoes.com</p>
+                
 </footer>
 
 
